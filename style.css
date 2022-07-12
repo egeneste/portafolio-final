@@ -264,6 +264,7 @@ section {
     background-color: var(--clr-green);
     height: 600px;
     line-height: 2em;
+    position: relative;
 }
 
 .first-image {
@@ -378,6 +379,7 @@ section {
         width: 100vw;
         position: fixed;
         top: 0;
+      
     }
 
     .navbar {
@@ -399,7 +401,7 @@ section {
         top: 0;
         left: 0;
         width: 100vw;
-        
+        padding-right: 2em;
     }
     
     .social-media {
@@ -434,9 +436,11 @@ section {
 
     .experiences {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap: 0.5em;
+       
     }
 
     .experience div {
@@ -445,14 +449,55 @@ section {
         margin-bottom: 1em;
         display: flex;
         align-items: center;
+        /* background-color: yellow; */
     }
 
     .experience div:nth-child(2){
-        width: 250px;
+        width: 100px;
     }
 
     .experience div:nth-child(3){
         justify-content: center;
         align-items: center;
+    }
+
+    .c_experiencia {
+        /* background-color: red; */
+        margin:  2em;
+    }
+
+    .first-image , .second-image{
+        width: 400px;
+    }
+
+    .first-image {
+        position: relative;
+        right: 450px;
+    }
+
+    .second-image {
+        position: relative;
+        left: 450px;
+    }
+    
+    
+    .porte-feuille {
+        position: absolute;
+
+        top: 20px;
+        right: 100px;
+    }
+
+  
+    .contactos-box {
+        align-self: center;
+        margin: 0 auto;
+        width: 90vw;
+        gap: 16em;
+        justify-content: center;
+    }
+
+    .main {
+        padding: 4em;
     }
 }
