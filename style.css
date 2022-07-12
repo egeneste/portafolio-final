@@ -393,7 +393,6 @@ section {
     }
 
     .navbar ul {
-        background-color: red;
         display: flex;
         justify-content: flex-end;
         gap: 1em;
